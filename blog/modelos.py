@@ -1,7 +1,6 @@
 from .validaciones import validar_post
 import json
-from .datos import estados_post, perfil_autor, posts
-
+from .datos import estados_post, perfil_autor
 
 class Autor:
     def __init__(self, nombre, bio, especialidad, redes_sociales):
@@ -85,30 +84,12 @@ class Blog:
         return posts
 
     def buscar_por_titulo(self, termino):
-        return [post for post in self.posts if termino.lower() in post.titulo.lower()]
+        return [post for post in self.listar_posts() if termino.lower() in post.titulo.lower()]
+       
 
     def filtrar_por_tag(self, tag):
-        return [post for post in self.posts if tag.lower() in (t.lower() for t in post.tags)]
-
-    # def validar(self):
-    #     resultados = []
-    #     for post in self.posts:
-    #         es_valido, mensaje = validar_post({
-    #             "id": post.id,
-    #             "titulo": post.titulo,
-    #             "contenido": post.contenido,
-    #             "autor": {
-    #                 "nombre": post.autor.nombre,
-    #                 "bio": post.autor.bio,
-    #                 "especialidad": post.autor.especialidad,
-    #                 "redes_sociales": post.autor.redes_sociales
-    #             },
-    #             "tags": post.tags,
-    #             "estado": post.estado
-    #         })
-    #         resultados.append((post.id, es_valido, mensaje))
-    #     return resultados
-
+        return [post for post in self.listar_posts() if tag.lower() in (t.lower() for t in post.tags)]
+        
     def guardar_en_json(self, archivo):
         try:
             with open(archivo, 'r', encoding='utf-8') as f:
