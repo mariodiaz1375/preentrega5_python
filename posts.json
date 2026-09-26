@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "titulo": "Primeros pasos con Python",
+        "contenido": "En este post veremos una introduccion a la sintaxis basica de Python.",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "Python",
+            "Principiantes"
+        ],
+        "estado": "publicado"
+    },
+    {
+        "id": 2,
+        "titulo": "Qué es Django",
+        "contenido": "Django es un framework de desarrollo web de alto nivel escrito en Python.",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "Python",
+            "Django",
+            "Web"
+        ],
+        "estado": "borrador"
+    },
+    {
+        "id": 3,
+        "titulo": "Organizando datos con diccionarios",
+        "contenido": "Los diccionarios nos permiten guardar informacion mediante pares clave-valor.",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "Python",
+            "Diccionarios"
+        ],
+        "estado": "archivado"
+    },
+    {
+        "id": 4,
+        "titulo": "Creando un blog con Django",
+        "contenido": "Aprende a estructurar las vistas y modelos de tu blog.",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "Python",
+            "Django",
+            "Web"
+        ],
+        "estado": "publicado"
+    },
+    {
+        "id": "5",
+        "titulo": "Desarrollo web",
+        "contenido": "Desarrollo web full stack",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "react",
+            "java script"
+        ],
+        "estado": "publicado"
+    }
+]
