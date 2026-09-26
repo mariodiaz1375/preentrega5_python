@@ -95,5 +95,24 @@
             "java script"
         ],
         "estado": "publicado"
+    },
+    {
+        "id": "6",
+        "titulo": "Ciencia de datos con python",
+        "contenido": "introduccion a pandas y numpy",
+        "autor": {
+            "nombre": "Mario Alberto Diaz",
+            "bio": "Desarrollador web y cientifico de datos.",
+            "especialidad": "Python, Django y SQL",
+            "redes_sociales": [
+                "@mario_dev",
+                "@mario_python"
+            ]
+        },
+        "tags": [
+            "numpy",
+            "pandas"
+        ],
+        "estado": "publicado"
     }
 ]
